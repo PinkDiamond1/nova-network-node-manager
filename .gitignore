@@ -3,4 +3,4 @@
 
 /.shell/nodeConsole.cmd
 /.shell/nodeRPC.cmd
-/.shell/nodeStart.exe
+/.shell/nodeStart.cmd
