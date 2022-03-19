@@ -4,3 +4,6 @@
 /.shell/nodeConsole.cmd
 /.shell/nodeRPC.cmd
 /.shell/nodeStart.cmd
+/.shell/nodeStart_100.bak
+
+NULL
