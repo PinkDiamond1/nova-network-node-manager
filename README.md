@@ -6,7 +6,7 @@ This tool allows you to start and manage your own full-node of Nova Network. We 
 
 # Download and Install
 1) Download the built software. We always recommend you to download the latest version available under the folder ```/builds``` of our Github repository.
-2) Extract the files in the directory you will want to run and store the blockchain. Note that if you decide to change this folder later down the track, you will likely cause instability, problems, and sync issues with your node, which may cause it to restart the DAG and syncinc from skratch, having to download the whole blockchain data again.
+2) Extract the files in the directory you will want to run and store the blockchain. Note that if you decide to change this folder later down the track, you will likely cause instability, problems, and sync issues with your node, which may cause it to restart the DAG and syncing from scratch, having to download the whole blockchain data again.
 3) We recommend you to have AT LEAST 1TB of available space in the HD or SSD you will run and operate your node.
 
 # Usage and Setup
