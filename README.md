@@ -36,10 +36,10 @@ In order to start sealing blocks and collecting rewards, you will have to start 
 
 # Minimum Requirements
 The process of sealing blocks do not use GPU and also does not require a too powerful machine to run. Nova Network is to be energy-efficient, fast, and light on hardware. The minimum requirements for you to run your node are:
-<br />
+  
 - Intel Core i7 4770 or Equivalent
 - 8GB DDR RAM
 - 1TB HD or SSD
 - Windows 7 or Superior
-<br />
-Running nodes in different operating systems other than Windows are currently restricted.
+  
+Running nodes in different operating systems other than Windows is currently restricted.
