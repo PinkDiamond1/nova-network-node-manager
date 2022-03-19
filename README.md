@@ -24,13 +24,13 @@ Once you have changed and adjusted all the information you need, just save and c
 
 *Run your node.*  
 Now just open ```nova-node-manager.exe``` in the root directory, and find and click on the 'Start' option in the main menu (Node > Start Node). We have taken care of all the boring and hard stuff, so your node should start automatically. If successful, in the end, you will see the main blockchain dashboard on a separate window. Note that if you close this terminal, your blockchain will stop.
-<br />
+  
 *Add your 'enode' peer.*  
 With your node runing, you will have to open the node console using the main menu (Node > Node Console). This will open the JS console that you will use to control and interact with your node. Once started, you will have to add the enode peer you were given in order to sync and connect to the main blockchain. You can do it using the command ```admin.addPeer("ENODE_HERE")``` in the console, replacing 'ENODE_HERE' with the enode key you were given. You can check if your peer has been added successfuly by typing the command ```admin.peers``` after you have added it. If successful, it should return the peer information, and if usucessful it will return ```[]```.
-<br />
+  
 *Setup your node name.*  
 Now you need to set your node name. It will be composed of 4 letters, preceeded by the word Valid (case-sensitive). Eg. ```ValidMatt```. To change it you will use the command ```miner.setExtra("ValidNAME")```, replacing 'NAME' with your own string.
-<br />
+  
 *Start sealing blocks.*  
 In order to start sealing blocks and collecting rewards, you will have to start your PoW miner using the command ```miner.start(1)```. Note that we strongly recommend you using the '(1)' to ensure the process uses the least possible resources from your machine. Leaving it  blank or increasing this number might result in a lot instability, drain of resources, and failures to your machine, and not necessarily more rewards.
 
