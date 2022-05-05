@@ -5,3 +5,4 @@
 CALL .\.shell\novaLang
 CALL .\.shell\appParameters
 CALL .\.shell\nodeInfo
+CALL .\.shell\appTheme

@@ -1,9 +1,13 @@
 /.blockchain
+/.novanetwork
 /build
 
 /.shell/nodeConsole.cmd
 /.shell/nodeRPC.cmd
 /.shell/nodeStart.cmd
+/.shell/nodeReset.cmd
 /.shell/nodeStart_100.bak
+
+nova-node-manager.abp
 
 NULL
