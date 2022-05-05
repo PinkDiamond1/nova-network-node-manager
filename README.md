@@ -3,7 +3,7 @@
 # Nova Network Node Manager
 This tool allows you to start and manage your own full-node of Nova Network. We have built it to be as simple as possible, and to require very low technical and programming skills to operate. Note that you will still need your validator enode key in order to connect to the main network, and this can only be obtained via staking of your funds. For more information visit https://docs.novanetwork.io/ and if you need further information, please reach out to our support team.
 
-#### Updates Version 1.1.0
+#### Updates Version 1.1.0:
 - Changed the default console theme to SNT's colours;
 - Changed default data directory;
 - Added new 'Tools' menu;
