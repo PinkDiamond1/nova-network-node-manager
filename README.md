@@ -3,6 +3,19 @@
 # Nova Network Node Manager
 This tool allows you to start and manage your own full-node of Nova Network. We have built it to be as simple as possible, and to require very low technical and programming skills to operate. Note that you will still need your validator enode key in order to connect to the main network, and this can only be obtained via staking of your funds. For more information visit https://docs.novanetwork.io/ and if you need further information, please reach out to our support team.
 
+# Updates Version 1.1.0
+- Changed the default console theme to SNT's colours;
+
+- Changed default data directory;
+
+- Added new 'Tools' menu;
+
+- Added an option to 'Reset Database' that can be used to completely clean the network history and files, and start a fresh new database. This tool can be used to address syncing and other problems, but resync will be necessary every time.
+
+- Added 'Console Theme' options. Now users can chose how their console colour scheme will look like.
+
+- Added 'Node Settings' option for users to edit their node parameters directly from the Node Manager.
+
 # Download and Install
 1) Download the built software. We always recommend you to download the latest version available under the folder ```/builds``` of our Github repository.
 2) Extract the files in the directory you will want to run and store the blockchain. Note that if you decide to change this folder later down the track, you will likely cause instability, problems, and sync issues with your node, which may cause it to restart the DAG and syncing from scratch, having to download the whole blockchain data again.
@@ -10,7 +23,7 @@ This tool allows you to start and manage your own full-node of Nova Network. We 
 
 # Usage and Setup
 *Set up your node.*
-The very first thing to do is to change the parameters of the ```/.shell/nodeInfo.cmd``` to fit your node's information. You can simply right-click it, and open it with your Nodepad if you do not have any other IDEs you like to use. You will see the fields below, which you might have to change:
+The very first thing to do is to change the parameters of the ```/.shell/nodeInfo.cmd``` to fit your node's information. You can use the settings option available on the main menu (Tools > Node Settings) to edit this file, or simply right-click it and open it with your Nodepad if you do not have any other IDEs you like to use. You will see the fields below, which you might have to change:
 
 :: NodeIdentity = Sets your node's identity or name.  
 :: RPCIP = Used to configure your RPC IP, we recommend you to leave it as 0.0.0.0.  
